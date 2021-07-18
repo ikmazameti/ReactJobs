@@ -4,11 +4,12 @@ import { View, StyleSheet } from "react-native";
 
 //components
 import Login from "./components/Login";
+import ProfileScreen from "./components/Profile/index";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Login />
+      <ProfileScreen />
       <StatusBar style="auto" />
     </View>
   );
